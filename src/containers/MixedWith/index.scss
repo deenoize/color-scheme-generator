@@ -1,0 +1,27 @@
+.cp_shown {
+    background-color: red;
+    position: relative;
+    width: 100%
+}
+
+.cp_shown .cp {
+    position: absolute;
+    top: 1rem;
+    left: 0;
+    width: 100%;
+    max-width: 400px
+}
+
+@media (min-width: 900px) {
+    .color-sample {
+        margin: 1rem
+    }
+
+    .color-sample:first-of-type {
+        margin-left: 0
+    }
+
+    .color-sample:last-of-type {
+        margin-right: 0
+    }
+}
