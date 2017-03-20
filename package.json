@@ -1,7 +1,7 @@
 {
-  "name": "react-challenge-colorizr",
+  "name": "color-scheme-generator",
   "version": "1.0.0",
-  "description": "Boilerplate for second React Challenge",
+  "description": "color-scheme-generator",
   "main": "index.js",
   "scripts": {
     "start": "npm run clean && node server.js",
@@ -11,23 +11,6 @@
     "lint": "eslint src",
     "generatePresets": "node utils/generatePresets.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/rtivital/react-challenge-colorizr.git"
-  },
-  "keywords": [
-    "react",
-    "react-challenge",
-    "react-router",
-    "redux",
-    "react-redux"
-  ],
-  "author": "Vitaly Rtishchev <rtivital@gmail.com> (http://github.com/rtivital)",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/rtivital/react-challenge-colorizr/issues"
-  },
-  "homepage": "https://github.com/rtivital/react-challenge-colorizr#readme",
   "dependencies": {
     "immutable": "^3.8.1",
     "react": "^15.0.1",
